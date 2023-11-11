@@ -6,17 +6,21 @@ class PreviewWidget extends StatelessWidget {
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Padding(
-        padding: EdgeInsets.symmetric(
+        padding: const EdgeInsets.symmetric(
           vertical: 35,
           horizontal: 5,
         ),
         child: Row(
           children: [
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 10),
-              child: 
-                
-                  Container(
+              
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child: GestureDetector(
+                onTap:(){
+                  print("Contenedor clickeado. Navegar a otra parte o realizar otras acciones aquí.");
+
+                },
+              child:Container(
                     width: 200,
                     height: 200,
                     padding: EdgeInsets.all(8),
@@ -48,7 +52,7 @@ class PreviewWidget extends StatelessWidget {
                   ),
                 
               
-              
+              ),
             ),
            Padding(
               padding: EdgeInsets.symmetric(horizontal: 10),
@@ -122,8 +126,6 @@ class PreviewWidget extends StatelessWidget {
                     ) ,
                   ),
                 
-              
-              
             ),
           ],
         ),
