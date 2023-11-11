@@ -82,7 +82,8 @@ class _HomePageState extends State<HomePage> {
                   ],
                 ),
               ),
-            ),
+            ), 
+            
           ),
           // Espacio debajo del buscador
           Padding(
