@@ -1,3 +1,4 @@
+import 'package:aprendizaje/pages/prueba.dart';
 import 'package:flutter/material.dart';
 
 class PreviewWidget extends StatelessWidget {
@@ -18,6 +19,10 @@ class PreviewWidget extends StatelessWidget {
               child: GestureDetector(
                 onTap:(){
                   print("Contenedor clickeado. Navegar a otra parte o realizar otras acciones aquí.");
+                   Navigator.push(
+  context,
+  MaterialPageRoute(builder: (context) => Prueba()), // Asegúrate de usar Prueba() en lugar de prueba
+);
 
                 },
               child:Container(
