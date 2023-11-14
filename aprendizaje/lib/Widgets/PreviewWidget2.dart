@@ -40,7 +40,7 @@ class PreviewWidget2 extends StatelessWidget{
                         height: 150,
                         ),
                       ),
-                      Text("Nombre", style: TextStyle(fontSize:20, fontWeight: FontWeight.bold),)
+                      Text("Contando hasta 30", style: TextStyle(fontSize:20, fontWeight: FontWeight.bold),)
 
 
                     ],),
@@ -78,7 +78,7 @@ class PreviewWidget2 extends StatelessWidget{
                         height: 150,
                         ),
                       ),
-                      Text("Nombre", style: TextStyle(fontSize:20, fontWeight: FontWeight.bold),)
+                      Text("Decenas", style: TextStyle(fontSize:20, fontWeight: FontWeight.bold),)
 
 
                     ],),
@@ -116,7 +116,7 @@ class PreviewWidget2 extends StatelessWidget{
                         height: 150,
                         ),
                       ),
-                      Text("Nombre", style: TextStyle(fontSize:20, fontWeight: FontWeight.bold),)
+                      Text("Centenas", style: TextStyle(fontSize:20, fontWeight: FontWeight.bold),)
 
 
                     ],),

@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_native_splash: ^2.3.4
   animated_splash_screen: ^1.3.0
+  chewie: ^1.7.1
+  video_player: ^2.4.0
 
 dev_dependencies:
   flutter_test:
@@ -89,6 +91,7 @@ flutter:
     - assets/Ejer3-4.png
     - assets/ObjDiferent.mp4
     - assets/respuestas/Ejer4-1.jpg
+    - assets/
   
   # To add assets to your application, add an assets section, like this:
 
