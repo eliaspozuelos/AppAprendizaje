@@ -175,10 +175,10 @@ class _HomePageState extends State<HomePage> {
         context,
         MaterialPageRoute(builder: (context) => ViewCategories('Literatura')),
       );
-    }else if(selectedCategory == 'Matematicas'){
+    }else if(selectedCategory == 'Adicion y Sustraccion'){
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => ViewCategories('Matematicas')),
+        MaterialPageRoute(builder: (context) => ViewCategories('Adicion y Sustraccion')),
       );
     }
   },
@@ -212,7 +212,7 @@ class _HomePageState extends State<HomePage> {
                       // Widgets relacionados con la categoría
                       if (selectedCategory == 'Literatura')
                         PreviewWidget2(), 
-                      if (selectedCategory == 'Matematicas')
+                      if (selectedCategory == 'Adicion y Sustraccion')
                       PreviewWidget(),
                     ],
                   ),

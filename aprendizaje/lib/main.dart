@@ -1,4 +1,4 @@
-import 'package:aprendizaje/pages/HomePage.dart';
+//import 'package:aprendizaje/pages/HomePage.dart';
 import 'package:aprendizaje/pages/SplashScreen.dart';
 import 'package:flutter/material.dart';
 

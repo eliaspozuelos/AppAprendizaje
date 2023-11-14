@@ -12,8 +12,10 @@ class ViewCategories extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Categoría: $category'),
+        title: Text(' $category'),
+          backgroundColor:  Color.fromARGB(255, 122, 10, 250), 
       ),
+       backgroundColor:  Color.fromARGB(241, 221, 229, 255),
       body: ListView(
         children: [
           if (category == 'Literatura')
@@ -25,11 +27,11 @@ class ViewCategories extends StatelessWidget {
                 ViewLit(),
               ],
             )
-          else if (category == 'Matematicas')
+          else if (category == 'Adicion y Sustraccion')
             // Widgets específicos para la categoría "Matemáticas"
             const Column(
               children: [
-                Text('Problemas de Matemáticas'),
+              
                 ViewMat(),
                 // Agrega aquí los widgets específicos para Matemáticas
               ],

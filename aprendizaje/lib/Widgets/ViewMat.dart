@@ -1,3 +1,7 @@
+import 'package:aprendizaje/Tema2/IntSumasYRestas.dart';
+import 'package:aprendizaje/tema2/ApliSumYRes.dart';
+import 'package:aprendizaje/tema2/ObDiferent.dart';
+import 'package:aprendizaje/tema2/ResUni.dart';
 import 'package:flutter/material.dart';
 
 class ViewMat extends StatelessWidget {
@@ -16,7 +20,7 @@ class ViewMat extends StatelessWidget {
                   width: 380,
                   height: 150,
                   decoration: BoxDecoration(
-                    color:  Color.fromARGB(255, 247, 249, 255),
+                    color: Color.fromARGB(255, 247, 249, 255),
                     borderRadius: BorderRadius.circular(15),
                     boxShadow: [
                       BoxShadow(
@@ -30,12 +34,21 @@ class ViewMat extends StatelessWidget {
                   child: Row(
                     children: [
                       InkWell(
-                        onTap: () {},
+                        onTap: () {
+                          print(
+                              "Contenedor clickeado. Navegar a otra parte o realizar otras acciones aquí.");
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) =>
+                                    IntSumasYRestas()), // Asegúrate de usar Prueba() en lugar de prueba
+                          );
+                        },
                         child: Container(
                           alignment: Alignment.center,
                           child: Image.asset(
-                            "assets/3.png",
-                            height: 120,
+                            "assets/SumasYRestas.png",
+                            height: 140,
                             width: 150,
                           ),
                         ),
@@ -50,20 +63,23 @@ class ViewMat extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "SUMAS BASICAS",
+                                "Introduccion a las sumas y restas",
                                 style: TextStyle(
-                                  fontSize: 22,
+                                  fontSize: 20,
                                   fontWeight: FontWeight.bold,
                                 ),
+                                textAlign: TextAlign
+                                    .center, // Centra el texto horizontalmente
                               ),
                               SizedBox(
                                   height:
                                       10), // Agrega espacio vertical de 10 unidades entre los textos
                               Text(
-                                "Operaciones de sumas matemáticas básicas",
+                                "Introduccion al mundo de las sumas y restas",
                                 style: TextStyle(
-                                  fontSize: 20,
+                                  fontSize: 18,
                                 ),
+                                textAlign: TextAlign.center,
                               ),
                             ],
                           ),
@@ -74,13 +90,13 @@ class ViewMat extends StatelessWidget {
                 ),
               ),
               //sig card
-                Padding(
+              Padding(
                 padding: EdgeInsets.symmetric(vertical: 10),
                 child: Container(
                   width: 380,
                   height: 150,
                   decoration: BoxDecoration(
-                    color:  Color.fromARGB(255, 247, 249, 255),
+                    color: Color.fromARGB(255, 247, 249, 255),
                     borderRadius: BorderRadius.circular(15),
                     boxShadow: [
                       BoxShadow(
@@ -94,11 +110,20 @@ class ViewMat extends StatelessWidget {
                   child: Row(
                     children: [
                       InkWell(
-                        onTap: () {},
+                        onTap: () {
+                            print(
+                              "Contenedor clickeado. Navegar a otra parte o realizar otras acciones aquí.");
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) =>
+                                    ApliSumYRes()), // Asegúrate de usar Prueba() en lugar de prueba
+                          );
+                        },
                         child: Container(
                           alignment: Alignment.center,
                           child: Image.asset(
-                            "assets/3.png",
+                            "assets/ApliSumaYResta.png",
                             height: 120,
                             width: 150,
                           ),
@@ -114,20 +139,23 @@ class ViewMat extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "SUMAS BASICAS",
+                                "Aplicando las Sumas Y Restas",
                                 style: TextStyle(
-                                  fontSize: 22,
+                                  fontSize: 20,
                                   fontWeight: FontWeight.bold,
                                 ),
+                                textAlign: TextAlign
+                                    .center, // Centra el texto horizontalmente
                               ),
                               SizedBox(
                                   height:
                                       10), // Agrega espacio vertical de 10 unidades entre los textos
                               Text(
-                                "Operaciones de sumas matemáticas básicas",
+                                "Aplicando sumas y restas para mejor desarrollo de ellas",
                                 style: TextStyle(
-                                  fontSize: 20,
+                                  fontSize: 18,
                                 ),
+                                textAlign: TextAlign.center,
                               ),
                             ],
                           ),
@@ -138,13 +166,13 @@ class ViewMat extends StatelessWidget {
                 ),
               ),
               //sig card
-                Padding(
+              Padding(
                 padding: EdgeInsets.symmetric(vertical: 10),
                 child: Container(
                   width: 380,
                   height: 150,
                   decoration: BoxDecoration(
-                    color:  Color.fromARGB(255, 247, 249, 255),
+                    color: Color.fromARGB(255, 247, 249, 255),
                     borderRadius: BorderRadius.circular(15),
                     boxShadow: [
                       BoxShadow(
@@ -158,12 +186,21 @@ class ViewMat extends StatelessWidget {
                   child: Row(
                     children: [
                       InkWell(
-                        onTap: () {},
+                        onTap: () {
+                          print(
+                              "Contenedor clickeado. Navegar a otra parte o realizar otras acciones aquí.");
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) =>
+                                    ResUni()), // Asegúrate de usar Prueba() en lugar de prueba
+                          );
+                        },
                         child: Container(
                           alignment: Alignment.center,
                           child: Image.asset(
-                            "assets/3.png",
-                            height: 120,
+                            "assets/RestaDosCifras.png",
+                            height: 150,
                             width: 150,
                           ),
                         ),
@@ -178,20 +215,24 @@ class ViewMat extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "SUMAS BASICAS",
+                                "Resta unidades a un numero de dos cifras",
                                 style: TextStyle(
-                                  fontSize: 22,
+                                  fontSize: 20,
                                   fontWeight: FontWeight.bold,
                                 ),
+                                textAlign: TextAlign
+                                    .center, // Centra el texto horizontalmente
                               ),
                               SizedBox(
                                   height:
                                       10), // Agrega espacio vertical de 10 unidades entre los textos
                               Text(
-                                "Operaciones de sumas matemáticas básicas",
+                                "Desarrola tus habilidades de resta",
                                 style: TextStyle(
-                                  fontSize: 20,
+                                  fontSize: 19,
                                 ),
+                                textAlign: TextAlign
+                                    .center, // Centra el texto horizontalmente
                               ),
                             ],
                           ),
@@ -202,13 +243,13 @@ class ViewMat extends StatelessWidget {
                 ),
               ),
               //sig card
-                Padding(
+              Padding(
                 padding: EdgeInsets.symmetric(vertical: 10),
                 child: Container(
                   width: 380,
                   height: 150,
                   decoration: BoxDecoration(
-                    color:  Color.fromARGB(255, 247, 249, 255),
+                    color: Color.fromARGB(255, 247, 249, 255),
                     borderRadius: BorderRadius.circular(15),
                     boxShadow: [
                       BoxShadow(
@@ -222,12 +263,21 @@ class ViewMat extends StatelessWidget {
                   child: Row(
                     children: [
                       InkWell(
-                        onTap: () {},
+                        onTap: () {
+                            print(
+                              "Contenedor clickeado. Navegar a otra parte o realizar otras acciones aquí.");
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) =>
+                                    ObDiferent()), // Asegúrate de usar Prueba() en lugar de prueba
+                          );
+                        },
                         child: Container(
                           alignment: Alignment.center,
                           child: Image.asset(
-                            "assets/3.png",
-                            height: 120,
+                            "assets/CantidadObjetos.png",
+                            height: 150,
                             width: 150,
                           ),
                         ),
@@ -242,20 +292,23 @@ class ViewMat extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "SUMAS BASICAS",
+                                "Objetos diferentes, mismas cantidades",
                                 style: TextStyle(
-                                  fontSize: 22,
+                                  fontSize: 20,
                                   fontWeight: FontWeight.bold,
                                 ),
+                                textAlign: TextAlign
+                                    .center, // Centra el texto horizontalmente
                               ),
                               SizedBox(
                                   height:
                                       10), // Agrega espacio vertical de 10 unidades entre los textos
                               Text(
-                                "Operaciones de sumas matemáticas básicas",
+                                "Desarrolla tus capacidades de matematicas ",
                                 style: TextStyle(
-                                  fontSize: 20,
+                                  fontSize: 18,
                                 ),
+                                textAlign: TextAlign.center,
                               ),
                             ],
                           ),
@@ -266,71 +319,6 @@ class ViewMat extends StatelessWidget {
                 ),
               ),
               //sig card
-                Padding(
-                padding: EdgeInsets.symmetric(vertical: 10),
-                child: Container(
-                  width: 380,
-                  height: 150,
-                  decoration: BoxDecoration(
-                    color:  Color.fromARGB(255, 247, 249, 255),
-                    borderRadius: BorderRadius.circular(15),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black.withOpacity(0.6),
-                        spreadRadius: 2,
-                        blurRadius: 10,
-                        offset: Offset(0, 3),
-                      ),
-                    ],
-                  ),
-                  child: Row(
-                    children: [
-                      InkWell(
-                        onTap: () {},
-                        child: Container(
-                          alignment: Alignment.center,
-                          child: Image.asset(
-                            "assets/3.png",
-                            height: 120,
-                            width: 150,
-                          ),
-                        ),
-                      ),
-                      Container(
-                        width: 198,
-                        child: const Padding(
-                          padding: EdgeInsets.only(
-                              top:
-                                  10), // Agrega espacio vertical de 10 unidades arriba del Column
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                "SUMAS BASICAS",
-                                style: TextStyle(
-                                  fontSize: 22,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                              SizedBox(
-                                  height:
-                                      10), // Agrega espacio vertical de 10 unidades entre los textos
-                              Text(
-                                "Operaciones de sumas matemáticas básicas",
-                                style: TextStyle(
-                                  fontSize: 20,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-             
-              
             ],
           )),
     );

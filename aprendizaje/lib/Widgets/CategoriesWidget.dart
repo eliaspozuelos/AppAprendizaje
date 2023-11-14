@@ -18,13 +18,13 @@ class _CategoriesWidgetState extends State<CategoriesWidget> {
       scrollDirection: Axis.horizontal,
       child: Padding(
         padding: EdgeInsets.symmetric(
-          vertical: 15,
-          horizontal: 5,
+          vertical: 25,
+          horizontal: 15,
         ),
         child: Row(
           children: [
             buildCategoryButton('Literatura', Color.fromARGB(255, 122, 10, 250)),
-            buildCategoryButton('Matematicas',  Color.fromARGB(255, 122, 10, 250)),
+            buildCategoryButton('Adicion y Sustraccion',  Color.fromARGB(255, 122, 10, 250)),
             buildCategoryButton('Otros', Color.fromARGB(255, 122, 10, 250)),
           ],
         ),
