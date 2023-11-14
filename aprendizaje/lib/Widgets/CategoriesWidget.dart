@@ -23,7 +23,7 @@ class _CategoriesWidgetState extends State<CategoriesWidget> {
         ),
         child: Row(
           children: [
-            buildCategoryButton('Literatura', Color.fromARGB(255, 122, 10, 250)),
+            buildCategoryButton('Numeros', Color.fromARGB(255, 122, 10, 250)),
             buildCategoryButton('Adicion y Sustraccion',  Color.fromARGB(255, 122, 10, 250)),
             buildCategoryButton('Otros', Color.fromARGB(255, 122, 10, 250)),
           ],

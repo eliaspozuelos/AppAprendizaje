@@ -18,11 +18,10 @@ class ViewCategories extends StatelessWidget {
        backgroundColor:  Color.fromARGB(241, 221, 229, 255),
       body: ListView(
         children: [
-          if (category == 'Literatura')
+          if (category == 'Numeros')
             // Widgets específicos para la categoría "Literatura"
             const Column(
-              children: [
-                Text('Libros de Literatura'),
+              children: [                
                 // Agrega aquí los widgets específicos para Literatura
                 ViewLit(),
               ],

@@ -169,11 +169,11 @@ class _HomePageState extends State<HomePage> {
   onTap: () {
     // Realiza una navegación al tocar la flecha
     
-    if (selectedCategory == 'Literatura') {
+    if (selectedCategory == 'Numeros') {
       // Navega a la página de Literatura (reemplaza 'NombreDeTuPagina' con el nombre de tu página)
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => ViewCategories('Literatura')),
+        MaterialPageRoute(builder: (context) => ViewCategories('Numeros')),
       );
     }else if(selectedCategory == 'Adicion y Sustraccion'){
       Navigator.push(
@@ -210,7 +210,7 @@ class _HomePageState extends State<HomePage> {
                         selectedCategory), // Key para identificar la transición
                     children: [
                       // Widgets relacionados con la categoría
-                      if (selectedCategory == 'Literatura')
+                      if (selectedCategory == 'Numeros')
                         PreviewWidget2(), 
                       if (selectedCategory == 'Adicion y Sustraccion')
                       PreviewWidget(),
