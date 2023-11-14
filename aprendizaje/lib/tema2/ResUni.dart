@@ -2,6 +2,7 @@ import 'package:aprendizaje/Tema2/Prueba1.dart';
 import 'package:aprendizaje/tema2/Prueba2.dart';
 import 'package:aprendizaje/tema2/Prueba3.dart';
 import 'package:flutter/material.dart';
+// ignore: depend_on_referenced_packages
 import 'package:video_player/video_player.dart';
 
 class ResUni extends StatefulWidget {
@@ -18,7 +19,7 @@ class _ResUniState extends State<ResUni> {
   @override
   void initState() {
     super.initState();
-    _controller = VideoPlayerController.asset('assets/ResUniNum.mp4');
+    _controller = VideoPlayerController.asset('assets/ResUni.mp4');
     _initializeVideoPlayerFuture = _controller.initialize();
     _controller.setLooping(true);
   }
