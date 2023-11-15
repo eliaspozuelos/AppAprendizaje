@@ -37,13 +37,15 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_native_splash: ^2.3.4
   animated_splash_screen: ^1.3.0
-  chewie: ^1.7.1
   video_player: ^2.4.0
+  image_picker: ^1.0.4
 
 dev_dependencies:
+  
   flutter_test:
     sdk: flutter
-  video_player: ^2.4.0
+  
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -91,9 +93,23 @@ flutter:
     - assets/Ejer3-3.png
     - assets/Ejer3-4.png
     - assets/ObjDiferent.mp4
+    - assets/agrupaciones.png
+    - assets/centenas.png
+    - assets/contando.png
+    - assets/decenas.png
+    - assets/Ejer4-1.jpg
+    - assets/Ejer4-2.jpg
+    - assets/Ejer4-3.jpg
+    - assets/Ejer4-4.jpg
     - assets/respuestas/Ejer4-1.jpg
-    - assets/
-  
+    - assets/respuestas/Ejer4-2-1.jpg
+    - assets/respuestas/Ejer4-2-2.jpg
+    - assets/respuestas/Ejer4-2-3.jpg
+    - assets/respuestas/Ejer4-2-4.jpg
+    - assets/respuestas/Ejer4-1.jpg
+    - assets/respuestas/Ejer4-2.jpg
+    - assets/respuestas/Ejer4-3..jpg
+    - assets/ProfilePhotos/ProfilePhoto.png
   # To add assets to your application, add an assets section, like this:
 
   #   - images/a_dot_burr.jpeg

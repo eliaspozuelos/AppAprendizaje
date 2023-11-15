@@ -1,5 +1,5 @@
 import 'package:aprendizaje/Tema2/Prueba1.dart';
-import 'package:aprendizaje/tema2/Prueba4.dart';
+// import 'package:aprendizaje/tema2/Prueba4.dart';
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
@@ -144,12 +144,13 @@ class _ObDiferentState extends State<ObDiferent> {
                 onPressed: () {
                    print(
                       "Contenedor clickeado. Navegar a otra parte o realizar otras acciones aquí.");
-                  Navigator.push(
+                 /* Navigator.push(
                     context,
                     MaterialPageRoute(
                         builder: (context) =>
-                            Prueba4()), // Asegúrate de usar Prueba() en lugar de prueba
-                  );
+                          //  Prueba4
+                          ()), // Asegúrate de usar Prueba() en lugar de prueba
+                  );*/
                   // Agrega la lógica para realizar la prueba aquí.
                 },
                 style: ElevatedButton.styleFrom(

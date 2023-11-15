@@ -18,11 +18,11 @@ class PreviewWidget2 extends StatelessWidget{
                 
                   Container(
                     width: 200,
-                    height: 200,
+                    height: 230,
                     padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
                       color: Color(
-                          0xFFE5EAFC), // Cambia el color de fondo a #E5EAFC
+                          0xFFE5EAFC), // Cambia el colohr de fondo a #E5EAFC
                       borderRadius: BorderRadius.circular(10),
                       boxShadow: [
                         BoxShadow(
@@ -36,11 +36,13 @@ class PreviewWidget2 extends StatelessWidget{
                    child:Padding(padding: EdgeInsets.symmetric(horizontal: 10),
                     child:  Column(children: [
                       Container(child: Image.asset(
-                        "assets/7.png",
+                        "assets/contando.png",
                         height: 150,
                         ),
                       ),
-                      Text("Contando hasta 30", style: TextStyle(fontSize:20, fontWeight: FontWeight.bold),)
+                      Text("Contando hasta 30", style: TextStyle(fontSize:20, fontWeight: FontWeight.bold),
+                      textAlign: TextAlign.center,),
+                  
 
 
                     ],),
@@ -56,7 +58,7 @@ class PreviewWidget2 extends StatelessWidget{
                 
                   Container(
                     width: 200,
-                    height: 200,
+                    height: 230,
                     padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
                       color: Color(
@@ -74,8 +76,8 @@ class PreviewWidget2 extends StatelessWidget{
                    child:Padding(padding: EdgeInsets.symmetric(horizontal: 10),
                     child:  Column(children: [
                       Container(child: Image.asset(
-                        "assets/8.png",
-                        height: 150,
+                        "assets/decenas.png",
+                        height: 180,
                         ),
                       ),
                       Text("Decenas", style: TextStyle(fontSize:20, fontWeight: FontWeight.bold),)
@@ -94,7 +96,7 @@ class PreviewWidget2 extends StatelessWidget{
                 
                   Container(
                     width: 200,
-                    height: 200,
+                    height: 230,
                     padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
                       color: Color(
@@ -112,8 +114,8 @@ class PreviewWidget2 extends StatelessWidget{
                    child:Padding(padding: EdgeInsets.symmetric(horizontal: 10),
                     child:  Column(children: [
                       Container(child: Image.asset(
-                        "assets/9.png",
-                        height: 150,
+                        "assets/centenas.png",
+                        height: 180,
                         ),
                       ),
                       Text("Centenas", style: TextStyle(fontSize:20, fontWeight: FontWeight.bold),)

@@ -47,8 +47,8 @@ class ViewLit extends StatelessWidget {
                         child: Container(
                           alignment: Alignment.center,
                           child: Image.asset(
-                            "assets/8.png",
-                            height: 120,
+                            "assets/contando.png",
+                            height: 150,
                             width: 150,
                           ),
                         ),
@@ -68,6 +68,7 @@ class ViewLit extends StatelessWidget {
                                   fontSize: 22,
                                   fontWeight: FontWeight.bold,
                                 ),
+                                  textAlign: TextAlign.center,
                               ),
                               SizedBox(
                                   height:
@@ -77,6 +78,7 @@ class ViewLit extends StatelessWidget {
                                 style: TextStyle(
                                   fontSize: 20,
                                 ),
+                                textAlign: TextAlign.center,
                               ),
                             ],
                           ),
@@ -120,8 +122,8 @@ class ViewLit extends StatelessWidget {
                         child: Container(
                           alignment: Alignment.center,
                           child: Image.asset(
-                            "assets/8.png",
-                            height: 120,
+                            "assets/decenas.png",
+                            height: 150,
                             width: 150,
                           ),
                         ),
@@ -141,6 +143,7 @@ class ViewLit extends StatelessWidget {
                                   fontSize: 22,
                                   fontWeight: FontWeight.bold,
                                 ),
+                                  textAlign: TextAlign.center,
                               ),
                               SizedBox(
                                   height:
@@ -150,6 +153,7 @@ class ViewLit extends StatelessWidget {
                                 style: TextStyle(
                                   fontSize: 20,
                                 ),
+                                  textAlign: TextAlign.center,
                               ),
                             ],
                           ),
@@ -193,8 +197,8 @@ class ViewLit extends StatelessWidget {
                         child: Container(
                           alignment: Alignment.center,
                           child: Image.asset(
-                            "assets/8.png",
-                            height: 120,
+                            "assets/centenas.png",
+                            height: 150,
                             width: 150,
                           ),
                         ),
@@ -266,9 +270,9 @@ class ViewLit extends StatelessWidget {
                         child: Container(
                           alignment: Alignment.center,
                           child: Image.asset(
-                            "assets/8.png",
-                            height: 120,
-                            width: 150,
+                            "assets/agrupaciones.png",
+                            height: 160,
+                            width: 160,
                           ),
                         ),
                       ),
