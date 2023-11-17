@@ -25,7 +25,7 @@ class _CategoriesWidgetState extends State<CategoriesWidget> {
           children: [
             buildCategoryButton('Numeros', Color.fromARGB(255, 122, 10, 250)),
             buildCategoryButton('Adicion y Sustraccion',  Color.fromARGB(255, 122, 10, 250)),
-            buildCategoryButton('Otros', Color.fromARGB(255, 122, 10, 250)),
+            buildCategoryButton('Multiplicacion y Division', Color.fromARGB(255, 122, 10, 250)),
           ],
         ),
       ),

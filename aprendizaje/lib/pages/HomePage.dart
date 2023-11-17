@@ -3,6 +3,7 @@ import 'package:aprendizaje/Widgets/CategoriesWidget.dart';
 import 'package:aprendizaje/Widgets/DrawerWidget.dart';
 import 'package:aprendizaje/Widgets/PreviewWidget.dart';
 import 'package:aprendizaje/Widgets/PreviewWidget2.dart';
+import 'package:aprendizaje/Widgets/PreviewWidget3.dart';
 import 'package:aprendizaje/pages/ViewCategories.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -180,6 +181,11 @@ class _HomePageState extends State<HomePage> {
         context,
         MaterialPageRoute(builder: (context) => ViewCategories('Adicion y Sustraccion')),
       );
+    }else if(selectedCategory == 'Multiplicacion y Division'){
+      Navigator.push(
+        context, 
+        MaterialPageRoute(builder: (context) => ViewCategories('Multiplicacion y Division')),
+      );
     }
   },
   child: Row(
@@ -214,6 +220,8 @@ class _HomePageState extends State<HomePage> {
                         PreviewWidget2(), 
                       if (selectedCategory == 'Adicion y Sustraccion')
                       PreviewWidget(),
+                      if(selectedCategory == 'Multiplicacion y Division')
+                      PreviewWidget3(),
                     ],
                   ),
           ),

@@ -1,6 +1,7 @@
 
 import 'package:aprendizaje/Widgets/ViewLit.dart';
 import 'package:aprendizaje/Widgets/ViewMat.dart';
+import 'package:aprendizaje/Widgets/ViewMat2.dart';
 import 'package:flutter/material.dart';
 
 class ViewCategories extends StatelessWidget {
@@ -36,6 +37,14 @@ class ViewCategories extends StatelessWidget {
               ],
             )
           // Agrega más "else if" para otras categorías según sea necesario
+          else if(category == 'Multiplicacion y Division')
+            const Column(
+              children: [
+              
+                ViewMat2(),
+                // Agrega aquí los widgets específicos para Matemáticas
+              ],
+            )
           else
             // Si no coincide con ninguna categoría, puedes mostrar un mensaje predeterminado
             const Center(
