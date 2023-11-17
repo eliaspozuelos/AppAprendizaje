@@ -31,7 +31,7 @@ class PreviewWidget3 extends StatelessWidget {
                 },
                 child: Container(
                   width: 200,
-                  height: 230,
+                  height: 250,
                   padding: EdgeInsets.all(8),
                   decoration: BoxDecoration(
                     color: Color(
@@ -52,8 +52,8 @@ class PreviewWidget3 extends StatelessWidget {
                       children: [
                         Container(
                           child: Image.asset(
-                            "assets/contando.png",
-                            height: 150,
+                            "assets/5.png",
+                            height: 190,
                           ),
                         ),
                         Text(
@@ -83,7 +83,7 @@ class PreviewWidget3 extends StatelessWidget {
                 },
                 child: Container(
                   width: 200,
-                  height: 230,
+                  height: 250,
                   padding: EdgeInsets.all(8),
                   decoration: BoxDecoration(
                     color:
@@ -104,7 +104,7 @@ class PreviewWidget3 extends StatelessWidget {
                       children: [
                         Container(
                           child: Image.asset(
-                            "assets/decenas.png",
+                            "assets/contando.png",
                             height: 180,
                           ),
                         ),
@@ -112,7 +112,9 @@ class PreviewWidget3 extends StatelessWidget {
                           "Trucos para multiplicar",
                           style: TextStyle(
                               fontSize: 20, fontWeight: FontWeight.bold),
-                        )
+                              textAlign: TextAlign.center,
+                        ),
+                        
                       ],
                     ),
                   ),
@@ -134,7 +136,7 @@ class PreviewWidget3 extends StatelessWidget {
                 },
                 child: Container(
                   width: 200,
-                  height: 230,
+                  height: 250,
                   padding: EdgeInsets.all(8),
                   decoration: BoxDecoration(
                     color:
@@ -155,7 +157,7 @@ class PreviewWidget3 extends StatelessWidget {
                       children: [
                         Container(
                           child: Image.asset(
-                            "assets/centenas.png",
+                            "assets/divisiones.png",
                             height: 180,
                           ),
                         ),
@@ -185,7 +187,7 @@ class PreviewWidget3 extends StatelessWidget {
                 },
                 child: Container(
                   width: 200,
-                  height: 230,
+                  height: 250,
                   padding: EdgeInsets.all(8),
                   decoration: BoxDecoration(
                     color:
@@ -206,7 +208,7 @@ class PreviewWidget3 extends StatelessWidget {
                       children: [
                         Container(
                           child: Image.asset(
-                            "assets/decenas.png",
+                            "assets/repasoDiv.png",
                             height: 180,
                           ),
                         ),
@@ -214,6 +216,7 @@ class PreviewWidget3 extends StatelessWidget {
                           "Repaso de las diviones",
                           style: TextStyle(
                               fontSize: 20, fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center,
                         )
                       ],
                     ),

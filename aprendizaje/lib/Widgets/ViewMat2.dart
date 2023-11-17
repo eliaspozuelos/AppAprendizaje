@@ -1,6 +1,8 @@
-import 'package:aprendizaje/tema3/Division.dart';
+import 'package:aprendizaje/tema1/Agrupaciones.dart';
+import 'package:aprendizaje/tema1/Centenas.dart';
+
+import 'package:aprendizaje/tema1/Decenas.dart';
 import 'package:aprendizaje/tema3/Multiplicacion.dart';
-import 'package:aprendizaje/tema3/RepasoDivision.dart';
 import 'package:aprendizaje/tema3/Trucos_Multiplicacion.dart';
 import 'package:flutter/material.dart';
 
@@ -47,7 +49,7 @@ class ViewMat2 extends StatelessWidget {
                         child: Container(
                           alignment: Alignment.center,
                           child: Image.asset(
-                            "assets/contando.png",
+                            "assets/5.png",
                             height: 150,
                             width: 150,
                           ),
@@ -122,7 +124,7 @@ class ViewMat2 extends StatelessWidget {
                         child: Container(
                           alignment: Alignment.center,
                           child: Image.asset(
-                            "assets/decenas.png",
+                            "assets/contando.png",
                             height: 150,
                             width: 150,
                           ),
@@ -191,13 +193,13 @@ class ViewMat2 extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                                 builder: (context) =>
-                                    Division()), // Asegúrate de usar Prueba() en lugar de prueba
+                                    Centenas()), // Asegúrate de usar Prueba() en lugar de prueba
                           );
                         },
                         child: Container(
                           alignment: Alignment.center,
                           child: Image.asset(
-                            "assets/centenas.png",
+                            "assets/.png",
                             height: 150,
                             width: 150,
                           ),
@@ -213,7 +215,7 @@ class ViewMat2 extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "Division",
+                                "Centenas",
                                 style: TextStyle(
                                   fontSize: 22,
                                   fontWeight: FontWeight.bold,
@@ -223,7 +225,7 @@ class ViewMat2 extends StatelessWidget {
                                   height:
                                       10), // Agrega espacio vertical de 10 unidades entre los textos
                               Text(
-                                "Distribuir en partes iguales",
+                                "Grupos de 100",
                                 style: TextStyle(
                                   fontSize: 20,
                                 ),
@@ -264,7 +266,7 @@ class ViewMat2 extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                                 builder: (context) =>
-                                    RepasoDivision()), // Asegúrate de usar Prueba() en lugar de prueba
+                                    Agrupaciones()), // Asegúrate de usar Prueba() en lugar de prueba
                           );
                         },
                         child: Container(
@@ -286,7 +288,7 @@ class ViewMat2 extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "Repaso de divisiones",
+                                "Agrupaciones",
                                 style: TextStyle(
                                   fontSize: 22,
                                   fontWeight: FontWeight.bold,
@@ -296,7 +298,7 @@ class ViewMat2 extends StatelessWidget {
                                   height:
                                       10), // Agrega espacio vertical de 10 unidades entre los textos
                               Text(
-                                "Partes de una división",
+                                "Diferentes grupos de cosas para contar más fácil",
                                 style: TextStyle(
                                   fontSize: 20,
                                 ),
