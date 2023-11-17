@@ -38,7 +38,7 @@ class _HomePageState extends State<HomePage> {
           AppBarWidget(),
 
           // Buscador
-          Padding(
+          /*Padding(
             padding: EdgeInsets.symmetric(
               vertical: 10,
               horizontal: 15,
@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
               ),
             ), 
             
-          ),
+          ),*/
           // Espacio debajo del buscador
           Padding(
             padding: EdgeInsetsDirectional.fromSTEB(15, 20, 15, 0),

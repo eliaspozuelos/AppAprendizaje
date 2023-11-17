@@ -453,7 +453,7 @@ class EjercicioDivRepasoState extends State<EjercicioDivRepaso> {
                         
                         value: 1,
                         groupValue: selectedOption5,
-                        title: Text('30 libros'),
+                        title: Text(''),
                         
                         onChanged: (value) {
                           if (!answersVerified) {
@@ -478,7 +478,7 @@ class EjercicioDivRepasoState extends State<EjercicioDivRepaso> {
                       RadioListTile(
                         value: 2,
                         groupValue: selectedOption5,
-                        title: Text('25 libros'),
+                        title: Text(''),
                         onChanged: (value) {
                           if (!answersVerified) {
                             setState(() {
@@ -501,7 +501,7 @@ class EjercicioDivRepasoState extends State<EjercicioDivRepaso> {
                       RadioListTile(
                         value: 3,
                         groupValue: selectedOption5,
-                        title: Text('28 libros'),
+                        title: Text(''),
                         onChanged: (value) {
                           if (!answersVerified) {
                             setState(() {
@@ -524,7 +524,7 @@ class EjercicioDivRepasoState extends State<EjercicioDivRepaso> {
                       RadioListTile(
                         value: 4,
                         groupValue: selectedOption5,
-                        title: Text('20 libros'),
+                        title: Text(''),
                         onChanged: (value) {
                           if (!answersVerified) {
                             setState(() {

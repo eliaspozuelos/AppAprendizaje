@@ -1,4 +1,4 @@
-import 'package:aprendizaje/tema1/EjercicioTercerSubTema.dart';
+import 'package:aprendizaje/tema3/EjercicioDivRepaso.dart';
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
@@ -144,7 +144,7 @@ class RepasoDivisionState extends State<RepasoDivision>{
                     context,
                     MaterialPageRoute(
                         builder: (context) =>
-                            EjercicioTercerSubTema()), // Asegúrate de usar Prueba() en lugar de prueba
+                            EjercicioDivRepaso()), // Asegúrate de usar Prueba() en lugar de prueba
                   );
                   // Agrega la lógica para realizar la prueba aquí.
                 },

@@ -1,8 +1,6 @@
-import 'package:aprendizaje/tema1/Agrupaciones.dart';
-import 'package:aprendizaje/tema1/Centenas.dart';
-
-import 'package:aprendizaje/tema1/Decenas.dart';
+import 'package:aprendizaje/tema3/Division.dart';
 import 'package:aprendizaje/tema3/Multiplicacion.dart';
+import 'package:aprendizaje/tema3/RepasoDivision.dart';
 import 'package:aprendizaje/tema3/Trucos_Multiplicacion.dart';
 import 'package:flutter/material.dart';
 
@@ -193,7 +191,7 @@ class ViewMat2 extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                                 builder: (context) =>
-                                    Centenas()), // Asegúrate de usar Prueba() en lugar de prueba
+                                    Division()), // Asegúrate de usar Prueba() en lugar de prueba
                           );
                         },
                         child: Container(
@@ -215,7 +213,7 @@ class ViewMat2 extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "Centenas",
+                                "Division",
                                 style: TextStyle(
                                   fontSize: 22,
                                   fontWeight: FontWeight.bold,
@@ -225,7 +223,7 @@ class ViewMat2 extends StatelessWidget {
                                   height:
                                       10), // Agrega espacio vertical de 10 unidades entre los textos
                               Text(
-                                "Grupos de 100",
+                                "Distribuir en partes iguales",
                                 style: TextStyle(
                                   fontSize: 20,
                                 ),
@@ -266,7 +264,7 @@ class ViewMat2 extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                                 builder: (context) =>
-                                    Agrupaciones()), // Asegúrate de usar Prueba() en lugar de prueba
+                                    RepasoDivision()), // Asegúrate de usar Prueba() en lugar de prueba
                           );
                         },
                         child: Container(
@@ -288,7 +286,7 @@ class ViewMat2 extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "Agrupaciones",
+                                "Repaso de divisiones",
                                 style: TextStyle(
                                   fontSize: 22,
                                   fontWeight: FontWeight.bold,
@@ -298,7 +296,7 @@ class ViewMat2 extends StatelessWidget {
                                   height:
                                       10), // Agrega espacio vertical de 10 unidades entre los textos
                               Text(
-                                "Diferentes grupos de cosas para contar más fácil",
+                                "Partes de una división",
                                 style: TextStyle(
                                   fontSize: 20,
                                 ),
