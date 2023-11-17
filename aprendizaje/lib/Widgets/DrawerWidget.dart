@@ -1,3 +1,4 @@
+import 'package:aprendizaje/pages/CreditsPage.dart';
 import 'package:aprendizaje/pages/ProfilePage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -39,59 +40,31 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                   backgroundImage: AssetImage("assets/ProfilePhotos/ProfilePhoto.png"),
                 ),
               ),
-            ),
+            ),            
             ListTile(
+              
               leading: Icon(
                 CupertinoIcons.home,
                 color: Colors.deepPurple,
               ),
               title: Text(
-                "Home",
+                "Créditos",
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
                 ),
               ),
-            ),
-            ListTile(
-              leading: Icon(
-                CupertinoIcons.home,
-                color: Colors.deepPurple,
-              ),
-              title: Text(
-                "Home",
-                style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ),
-            ListTile(
-              leading: Icon(
-                CupertinoIcons.home,
-                color: Colors.deepPurple,
-              ),
-              title: Text(
-                "Home",
-                style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ),
-            ListTile(
-              leading: Icon(
-                CupertinoIcons.home,
-                color: Colors.deepPurple,
-              ),
-              title: Text(
-                "Home",
-                style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ),
+              onTap: () {
+                  print(
+                      "Contenedor clickeado. Navegar a otra parte o realizar otras acciones aquí.");
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) =>
+                            CreditosScreen()), // Asegúrate de usar Prueba() en lugar de prueba
+                  );
+                },
+            ),                        
             ListTile(
               leading: Icon(
                 CupertinoIcons.settings,
