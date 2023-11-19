@@ -223,7 +223,7 @@ class PreviewWidget extends StatelessWidget {
                           ),
                         ),
                         const Text(
-                          "Objetos diferentes, mismas cantidades",
+                          "Objetos diferente, mismas cantidades",
                           style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.bold,

@@ -7,6 +7,7 @@ class CreditosScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Créditos'),
+        backgroundColor: Color(0xFF9C2CF3),
       ),
       body: Center(
         child: Column(
@@ -33,6 +34,9 @@ class CreditosScreen extends StatelessWidget {
             ),
             SizedBox(height: 20),
             ElevatedButton(
+               style: ButtonStyle(
+                    backgroundColor: MaterialStateProperty.all<Color>(Color(0xFF9C2CF3)),
+                  ),
               onPressed: () {
                 print(
                       "Contenedor clickeado. Navegar a otra parte o realizar otras acciones aquí.");

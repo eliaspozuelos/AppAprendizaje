@@ -199,7 +199,7 @@ class ViewMat2 extends StatelessWidget {
                         child: Container(
                           alignment: Alignment.center,
                           child: Image.asset(
-                            "assets/.png",
+                            "assets/centenas.png",
                             height: 150,
                             width: 150,
                           ),
